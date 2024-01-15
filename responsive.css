@@ -1,0 +1,95 @@
+body {
+  background-image: url(assets/image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: grid;
+  grid-template-columns: repeat(100px);
+  gap: 0.1rem;
+  height: 97vh;
+}
+body .general-div {
+  background: white;
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  width: 10%;
+  height: 100%;
+}
+body .general-div1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+body .general-div1 .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+body .general-div1 .navbar .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+body .general-div1 .navbar .navigation a {
+  text-decoration: none;
+}
+body .general-div1 .navbar .registration {
+  display: flex;
+  gap: 1rem;
+}
+body .general-div1 .navbar .btn1 {
+  background: none;
+  border: none;
+}
+body .general-div1 .navbar .btn2 {
+  height: 40px;
+  width: 7em;
+  background: blue;
+  color: aliceblue;
+  border: none;
+  border-radius: 3em;
+}
+body .general-div1 .content-div {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+}
+body .general-div1 .content-div .button {
+  display: flex;
+  gap: 1em;
+}
+body .general-div1 .content-div .btn3 {
+  height: 40px;
+  width: 9em;
+  background: blue;
+  border: none;
+  border-radius: 3em;
+  color: yellow;
+}
+body .general-div1 .content-div .btn4 {
+  height: 40px;
+  width: 9em;
+  background: none;
+  backdrop-filter: blur(50px);
+  border: none;
+  border-radius: 3em;
+}
+body .general-div1 .content-div .image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+body .general-div1 .content-div .image .div1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 1em;
+  margin: 0;
+}
+body .general-div1 .content-div .image .div2 {
+  margin: 0;
+}
+
+/*# sourceMappingURL=responsive.css.map */
