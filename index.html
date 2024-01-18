@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main>
+        <h1>Vanilla Calculator</h1>
+        <section>
+            <label for="price">Price</label>
+            <input type="number" id="price" class="price" oninput="priceTotal()">
+        </section>
+        <section>
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" class="quantity" oninput="priceTotal()">
+        </section>
+        <section class="priceSum">
+            <label for="total">Total</label>
+            <input type="number" name="total" id="total" class="total" readonly>
+        </section>
+    </main>
+
+    <script>
+
+        function priceTotal() {
+            let price = document.getElementById("price").value;
+            let quantity = document.getElementById("quantity").value;
+            const total = price * quantity;
+            document.getElementById("total").value = total;
+        }
+
+    </script>
+
+</body>
+
+</html>

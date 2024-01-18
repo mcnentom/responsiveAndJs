@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body main {
+  width: 50%;
+  height: 50%;
+  background: #a8cdcf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 5rem;
+}
+body main section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 40%;
+  margin: 0.5rem 0.9rem;
+}
+body main section input {
+  background: #528689;
+  height: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #fff;
+  padding: 10px;
+  outline: none;
+}
+body main section .total {
+  margin-bottom: 2rem;
+}
+body main .priceSum {
+  display: flex;
+  align-items: center;
+}
+body main .priceSum input {
+  width: 42% !important;
+  text-align: center;
+  padding: 2px;
+}
+@media screen and (max-width: 600px) {
+  body main {
+    width: fit-content;
+  }
+  body main h1 {
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
