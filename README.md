@@ -30,14 +30,14 @@
 <Details>
 <summary>Wrap Up Assessment</summary>
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset= "https://github.com/mcnentom/responsiveAndJs/blob/wrapUpAssessment/Assets/SharedScreenshot2.jpg)">
- <img alt="image of the page" src="https://github.com/mcnentom/responsiveAndJs/blob/wrapUpAssessment/Assets/SharedScreenshot2.jpg)">
+ <source media="(prefers-color-scheme: dark)" srcset= "https://github.com/mcnentom/responsiveAndJs/blob/wrapUpAssessment/Assets/SharedScreenshot2.jpg">
+ <img alt="image of the page" src="https://github.com/mcnentom/responsiveAndJs/blob/wrapUpAssessment/Assets/SharedScreenshot2.jpg">
 </picture>
 </Details>
 <Details>
 <summary>json api </summary>
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset= "https://github.com/mcnentom/responsiveAndJs/blob/myapi1/src/Assets/SharedScreenshot.jpg)">
+ <source media="(prefers-color-scheme: dark)" srcset= "https://github.com/mcnentom/responsiveAndJs/blob/myapi1/src/Assets/SharedScreenshot.jpg">
  <img alt="image of the page" src="https://github.com/mcnentom/responsiveAndJs/blob/myapi1/src/Assets/SharedScreenshot.jpg">
 </picture>
 </Details>
