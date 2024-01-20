@@ -10,3 +10,6 @@ data.json has some data that needs to be fetched dynamically. This data has been
 axios is used to make https requests to the local server then the useEffect enhances fetching upon rendering.
 setInfo updates the info state to this fetched data.
 So data will be mapped from info state then to myData using that specific key which is vital in keeping track of the components.
+
+![alt text](https://github.com/mcnentom/responsiveAndJs/blob/myapi1/src/Assets/SharedScreenshot.jpg)
+![alt text](https://github.com/mcnentom/responsiveAndJs/blob/myapi1/src/Assets/SharedScreenshot1.jpg)
