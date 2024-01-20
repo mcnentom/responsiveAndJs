@@ -1,5 +1,3 @@
-# responsiveAndJs
-
 ## My week's summary
 
 | Task              | Description                                                                   |
