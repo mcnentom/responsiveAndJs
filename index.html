@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snap</title>
+</head>
+
+<body>
+    <script>
+        const general = document.createElement('div');
+        general.classList.add('general-div');
+        const navBar = document.createElement('div');
+        navBar.classList.add('nav-bar');
+        const snap = document.createElement('div');
+        snap.classList.add('snap-div');
+        snap.innerHTML = `
+        <img src= "Assets/logo.svg" alt= 'logo'>
+        <ul>
+        <li>Features</li>  
+        <li>Company</li>  
+        <li>Careers</li>  
+        <li>About</li>    
+        </ul>
+        `;
+        const login = document.createElement('login');
+        login.classList.add('login');
+        login.innerHTML = `
+        <button type="button">Login</button>
+        <button type="button">Register</button>
+        `;
+        const content = document.createElement('div');
+        content.classList.add('content-div');
+        const text = document.createElement('div');
+        text.classList.add('text-div');
+        const mainCont = document.createElement('div');
+        mainCont.classList.add('main-cont');
+        mainCont.innerHTML = `
+        <h1>Make remote work</h1>
+        <p>Get your team in sync. No matter your location. Streamline processes.Create team rituals. and watch productivity soar </p>
+        <button type="button> learn more</button>
+        `;
+        const footer = document.createElement('div');
+        footer.classList.add('footer');
+        footer.innerHTML = `
+        <img src="Assets/client-databiz.svg" alt="footer image">
+        <img src="Assets/client-audiophile.svg" alt="footer image">
+        <img src="Assets/client-meet.svg" alt="footer image">
+        <img src="Assets/client-maker.svg" alt="footer image">
+        `;
+        const imageDiv = document.createElement('div')
+        imageDiv.classList.add('image-div') 
+        imageDiv.innerHTML = `
+        <img src="Assets/image-hero-desktop.png" alt="hero image">
+        `;
+        navBar.appendChild(snap);
+        navBar.appendChild(login);
+        text.appendChild(mainCont);
+        text.appendChild(footer);
+        content.appendChild(text);
+        content.appendChild(imageDiv);
+        general.appendChild(navBar);
+        general.appendChild(content);
+        document.body.appendChild(general);
+    </script>
+</body>
+
+</html>
